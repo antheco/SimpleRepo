@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/antheco/SimpleRepo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^8.1.3"
   }
 }
