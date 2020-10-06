@@ -1,0 +1,22 @@
+{
+  "name": "simplerepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antheco/SimpleRepo.git"
+  },
+  "keywords": [
+    "simple"
+  ],
+  "author": "anthony e",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antheco/SimpleRepo/issues"
+  },
+  "homepage": "https://github.com/antheco/SimpleRepo#readme"
+}
