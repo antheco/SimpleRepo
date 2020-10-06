@@ -1,9 +1,12 @@
 version: 2.1
+orbs:
+  node: 'circleci/node@2.0.0'
 jobs:
   build:
     docker: 
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
+      - node/install-packages
       - run: node test/test1.js
       - run: node app.js # run the `echo` command
