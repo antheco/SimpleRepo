@@ -1,0 +1,7 @@
+echo "/dev/mapper/datavg-export_homelv  /export/home  xfs defaults  0 0
+echo "/dev/mapper/datavg-ext_opt_oraclelv /ext/opt/oracle xfs  defaults  0  0
+echo "/dev/mapper/datavg-opt_app_hulftlv  /opt/app/hulft  xfs defaults  0 0
+echo "/dev/mapper/datavg-datastagelv  /DataStage  xfs defaults 0  0
+echo "/dev/mapper/datavg-datalv /data xfs defaults  0 0
+echo "/dev/mapper/datavg-ds_templv  /DS_temp  xfs defaults 0  0
+echo "/dev/mapper/datavg-projectslv /Projects  xfs defaults 0  0
