@@ -5,3 +5,11 @@ echo "/dev/mapper/datavg-datastagelv  /DataStage  xfs defaults 0  0" >> /etc/fst
 echo "/dev/mapper/datavg-datalv /data xfs defaults  0 0" >> /etc/fstab
 echo "/dev/mapper/datavg-ds_templv  /DS_temp  xfs defaults 0  0" >> /etc/fstab
 echo "/dev/mapper/datavg-projectslv /Projects  xfs defaults 0  0" >> /etc/fstab
+
+mkfs -t xfs /dev/datavg/export_homelv 
+mkfs -t xfs /dev/datavg/ext_opt_oraclelv
+mkfs -t xfs /dev/datavg/opt_app_hulftlv
+mkfs -t xfs /dev/datavg/datastagelv
+mkfs -t xfs /dev/datavg/datalv
+mkfs -t xfs /dev/datavg/ds_templv
+mkfs -t xfs /dev/datavg/projectslv
